@@ -43,7 +43,7 @@ src/
 
 ## 📸 Screenshots
 
-![portfolio Screenshot](Screenshot.png)
+![portfolio Screenshot](src/assets/screenshot.png)
 
 ## 🧑‍💻 Author
 
