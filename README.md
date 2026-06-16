@@ -4,7 +4,7 @@ A modern and responsive portfolio website built using React.js, showcasing my sk
 
 ## 🚀 Live Demo
 
-[(https://mrunali-mohite-portfolio.netlify.app/](https://mrunali-mohite-portfolio.netlify.app/)
+[https://mrunali-mohite-portfolio.netlify.app/](https://mrunali-mohite-portfolio.netlify.app/)
 
 ## 📌 Features
 
