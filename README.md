@@ -4,7 +4,7 @@ A modern and responsive portfolio website built using React.js, showcasing my sk
 
 ## 🚀 Live Demo
 
-https://your-portfolio-link.netlify.app
+[https://your-portfolio-link.netlify.app](https://mrunali-mohite-portfolio.netlify.app/)
 
 ## 📌 Features
 
@@ -40,10 +40,6 @@ src/
 │ └── Contact.jsx
 ├── App.jsx
 └── main.jsx
-
-## 📸 Screenshots
-
-![portfolio Screenshot](src/assets/screenshot.png)
 
 ## 🧑‍💻 Author
 
@@ -83,6 +79,10 @@ Build for production:
 ```bash
 npm run build
 ```
+
+## 📸 Screenshots
+
+![portfolio Screenshot](src/assets/screenshot.png)
 
 ## License
 
