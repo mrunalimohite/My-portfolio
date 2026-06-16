@@ -43,7 +43,7 @@ src/
 
 ## 📸 Screenshots
 
-Add screenshots of your portfolio here.
+![Landing Page Screenshot](Screenshot.png)
 
 ## 🧑‍💻 Author
 
