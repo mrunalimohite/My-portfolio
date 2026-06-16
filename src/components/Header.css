@@ -1,0 +1,92 @@
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(14, 8, 20, 0.85);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+.header.scrolled {
+  background: rgba(14, 8, 20, 0.97);
+  box-shadow: 0 2px 30px rgba(0,0,0,0.4);
+}
+.logo{
+    font-size: 2.4rem;
+    color: var(--text);
+    font-weight: 800;
+}
+.logo span{
+    color: var(--rose);
+}
+.navbar{
+    display: flex;
+    gap: 1.2rem;
+}
+.navbar a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    padding: 6px 14px;
+    border-radius: 100px;
+    transition: color 0.2s, background 0.2s;
+}
+.navbar a:hover {
+    color: var(--text);
+    background: rgba(195, 25, 93, 0.15);
+}
+.navbar a.active {
+  color: var(--text);
+  background: rgba(195, 25, 93, 0.30);
+  box-shadow: var(--glow-rose);
+}
+
+/* Hamburger */
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    color: var(--text);
+    font-size: 2rem;
+}
+/* === Media Queries === */
+@media (max-width: 768px) {
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: var(--header-h);
+        left: 0; right: 0;
+        background: rgba(14, 8, 20, 0.98);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
+        padding: 1.5rem 5%;
+        gap: 0.5rem;
+        z-index: 999;
+    }
+    .navbar.open {
+        display: flex;
+    }
+    .navbar a {
+        width: 100%;
+        padding: 12px;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+    }
+    .navbar a:hover {
+        background: rgba(195, 25, 93, 0.15);
+    }
+}

@@ -1,0 +1,49 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-h);
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+ul { list-style: none; }
+
+
+:root {
+  --bg: #0e0814;
+  --bg-2: #160d1f;
+  --bg-card: #1c1228;
+  --plum: #490b3d;
+  --plum-light: #7a1565;
+  --rose: #c3195d;
+  --rose-hover: #a01249;
+  --gold: #f1b814;
+  --gold-dim: #b88a0e;
+  --text: #f0eaf8;
+  --text-muted: #9b8aad;
+  --border: rgba(195, 25, 93, 0.18);
+  --border-hover: rgba(195, 25, 93, 0.55);
+  --glow-rose: 0 0 24px rgba(195, 25, 93, 0.35);
+  --glow-gold: 0 0 20px rgba(241, 184, 20, 0.3);
+  --radius: 16px;
+  --radius-sm: 8px;
+  --font-display: 'Roboto', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --header-h: 68px;
+}
+
