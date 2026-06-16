@@ -1,5 +1,5 @@
 import './About.css';
-import portfolio from '../assets/Profile-pic.jpeg';
+import profilePic from "../assets/profile-pic.jpeg";
 function About() {
   return (
     <section className="about" id="about">
@@ -7,7 +7,7 @@ function About() {
       <div className="about-grid">
         <div className="about-photo-wrap">
           <div className="about-photo-placeholder">
-            <img src={portfolio} alt="Mrunali Mohite" className="profile-img"/>
+            <img src={profilePic} alt="Mrunali Mohite" className="profile-img"/>
           </div>
           <div className="about-stats">
             <div className="stat">
